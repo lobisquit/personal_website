@@ -1,0 +1,29 @@
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+    padding: 0 10px;
+    font-family: sans
+}
+
+h1,h2,h3 {
+    line-height: 1.2;
+    font-variant: small-caps
+}
+
+.icon {
+    height: 1em
+}
+
+a {
+    color: #333;
+    font-family: monospace;
+    text-decoration: none
+}
+
+ul {
+    list-style-type:none;
+    padding-left: 1em;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<svg width="17.108185" height="15" viewBox="0 0 17.108185 15" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="left_hole">
+      <polygon points="0,0 10,0 5,15" fill="white"/>
+      <polygon points="1.3874259,1 5,11.837723 8.612575,1" fill="black"/>
+    </mask>
+
+    <mask id="right_hole">
+      <polygon points="7.108185,15 17.108185,15 12.108185,0" fill="white"/>
+      <polygon points="15.720759,14 12.108185,3.1622772 8.49561,14" fill="black"/>
+    </mask>
+  </defs>
+
+  <polygon points="0,0 10,0 5,15"
+	   fill="{{logo-color}}"
+	   mask="url(#left_hole)"/>
+
+  <polygon points="7.108185,15 17.108185,15 12.108185,0"
+	   fill="{{logo-color}}"
+	   mask="url(#right_hole)"/>
+</svg>
+
