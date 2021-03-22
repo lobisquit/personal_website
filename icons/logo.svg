@@ -13,11 +13,11 @@
   </defs>
 
   <polygon points="0,0 10,0 5,15"
-	   fill="{{logo-color}}"
+	   fill="#333"
 	   mask="url(#left_hole)"/>
 
   <polygon points="7.108185,15 17.108185,15 12.108185,0"
-	   fill="{{logo-color}}"
+	   fill="#333"
 	   mask="url(#right_hole)"/>
 </svg>
 
